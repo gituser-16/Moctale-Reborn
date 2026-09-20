@@ -5,7 +5,7 @@ $host = "db.mviowbyjwsojuhjgmtjw.supabase.co";
 $port = "5432";
 $dbname = "postgres";
 $user = "postgres";
-$password = "MoctaleReborn";
+$password = "YOUR_TMDB_PASSWORD";
 
 try {
     $pdo = new PDO(
