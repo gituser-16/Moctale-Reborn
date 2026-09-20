@@ -1,11 +1,11 @@
 <?php
 // Copy this file to db.php and fill in your own Supabase credentials
 
-$host = "db.mviowbyjwsojuhjgmtjw.supabase.co";
+$host = "YOUR_SUPABASE_HOST";
 $port = "5432";
 $dbname = "postgres";
 $user = "postgres";
-$password = "YOUR_TMDB_PASSWORD";
+$password = "YOUR_DB_PASSWORD";
 
 try {
     $pdo = new PDO(
