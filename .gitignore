@@ -1,0 +1,9 @@
+# Sensitive config files - never commit these
+config/db.php
+config/tmdb-api-key.php
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
