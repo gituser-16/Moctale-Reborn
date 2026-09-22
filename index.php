@@ -78,5 +78,7 @@ foreach ($categories as $cat) {
             </div>
         <?php endforeach; ?>
     <?php endif; ?>
+
+<?php include 'includes/footer.php'; ?>
 </body>
 </html>

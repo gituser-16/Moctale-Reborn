@@ -39,5 +39,7 @@ $watchlistMovies = $stmt->fetchAll();
             <?php endforeach; ?>
         <?php endif; ?>
     </div>
+
+<?php include 'includes/footer.php'; ?>
 </body>
 </html>
